@@ -1,5 +1,8 @@
 # nvjpeg-bug-report-4
 
+> [!CAUTION]
+> Thanks to the nvJPEG team, this bug has been fixed in CUDA 12.9.
+
 Demonstrates issues in `nvjpegDecodeJpegTransferToDevice` when decoding large images. The reproducer simply decodes an image.
 
 Tested with CUDA 12.6.1 driver version 560.35.03 on Ubuntu 22.04.3.
